@@ -1,0 +1,29 @@
+<!doctype html>
+<html>
+	<body>
+		<script>
+			/* make util code here! */
+
+			var make = {};
+
+			make.h1 = function() {
+				return document.createElement('h1');
+			};
+
+			make.a = function() {
+				return document.createElement('a');
+			};
+
+			/* end make util code */
+
+			var h1 = make.h1();
+			h1.innerHTML = 'Hello World';
+			document.body.appendChild(h1);
+
+			var a = make.a();
+			a.href= 'http://canjs.com';
+			a.innerHTML = 'CanJS';
+			document.body.appendChild(a);
+		</script>
+	</body>
+</html>
