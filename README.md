@@ -15,7 +15,7 @@ $ git clone git@github.com:bitovi/training.git
 
 #### using a zip file
 
-Click the "Download ZIP" button at the bottom right of this page.
+Click the "Download ZIP" button at the top right of this page.
 
 ### Viewing the exercises
 
